@@ -1,0 +1,20 @@
+---
+description: Use Supabase plugin for this workspace (tables, config, queries)
+globs: "**/*.ts,**/*.tsx,**/*.js,**/*.jsx,**/*.sql,**/supabase/**/*"
+alwaysApply: false
+---
+
+# Supabase (workspace)
+
+This project uses the **Supabase** plugin. Use it for Supabase-related work in this workspace.
+
+## Plugin capabilities
+
+- **Manage tables** — Create, alter, inspect tables in your Supabase project
+- **Project config** — Fetch connection strings, API URLs, and other config
+- **Query data** — Run SQL, list tables, inspect schema via the Supabase MCP server
+
+## Usage
+
+- The Supabase MCP server is available as `plugin-supabase-supabase`. Authenticate with the `mcp_auth` tool if the server reports it needs authentication.
+- The **supabase-postgres-best-practices** skill is applied automatically when writing or reviewing Postgres queries, schema, or database configuration for Supabase.

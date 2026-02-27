@@ -1,0 +1,20 @@
+---
+description: Use PlanetScale Database Skills for MySQL, Postgres, Vitess, or Neki work
+globs: "**/*.sql,**/migrations/**/*,**/schema/**/*,**/*mysql*,**/*postgres*,**/*vitess*,**/*neki*"
+alwaysApply: false
+---
+
+# PlanetScale Database Skills (workspace)
+
+This project includes the PlanetScale Database Skills in `.cursor/skills/database-skills/`. Use them when working with databases in this workspace.
+
+## When to use which skill
+
+- **MySQL / InnoDB** — Schema, indexes, queries, migrations, replication, locking, connections → read `.cursor/skills/database-skills/mysql/SKILL.md` and apply its guidance.
+- **PostgreSQL** — Schema design, indexing, MVCC/VACUUM, WAL, replication, monitoring, connection pooling → read `.cursor/skills/database-skills/postgres/SKILL.md`.
+- **Vitess** — Sharding, VSchema, keyspaces, online DDL, VReplication, MySQL scaling → read `.cursor/skills/database-skills/vitess/SKILL.md`.
+- **Neki** (sharded Postgres) — Scaling/sharding Postgres → read `.cursor/skills/database-skills/neki/SKILL.md`.
+
+## Invoking from chat
+
+You can also invoke the plugin skills with `/mysql`, `/postgres`, `/vitess`, or `/neki` (plugin must be enabled in settings).

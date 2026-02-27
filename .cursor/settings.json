@@ -1,0 +1,13 @@
+{
+  "plugins": {
+    "database-skills": {
+      "enabled": true
+    },
+    "supabase": {
+      "enabled": true
+    },
+    "superpowers": {
+      "enabled": true
+    }
+  }
+}

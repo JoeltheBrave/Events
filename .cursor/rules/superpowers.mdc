@@ -1,0 +1,27 @@
+---
+description: Use Superpowers skills for TDD, debugging, planning, and collaboration
+alwaysApply: true
+---
+
+# Superpowers (workspace)
+
+This project includes the Superpowers skill library in `.cursor/skills/superpowers/`. Use them when the situation matches.
+
+## When to use which skill
+
+- **brainstorming** — Before any creative work (features, components, behavior). Read `.cursor/skills/superpowers/brainstorming/SKILL.md`.
+- **dispatching-parallel-agents** — Two or more independent tasks; no shared state. Read `.cursor/skills/superpowers/dispatching-parallel-agents/SKILL.md`.
+- **executing-plans** — You have a written implementation plan to run with review checkpoints. Read `.cursor/skills/superpowers/executing-plans/SKILL.md`.
+- **finishing-a-development-branch** — Implementation done, tests pass; deciding merge/PR/cleanup. Read `.cursor/skills/superpowers/finishing-a-development-branch/SKILL.md`.
+- **receiving-code-review** — You received code review feedback; verify before changing code. Read `.cursor/skills/superpowers/receiving-code-review/SKILL.md`.
+- **requesting-code-review** — Major step or feature done; review before merging. Read `.cursor/skills/superpowers/requesting-code-review/SKILL.md`.
+- **subagent-driven-development** — Running an implementation plan with independent tasks in this session. Read `.cursor/skills/superpowers/subagent-driven-development/SKILL.md`.
+- **systematic-debugging** — Bug, test failure, or unexpected behavior. Read `.cursor/skills/superpowers/systematic-debugging/SKILL.md`.
+- **test-driven-development** — Implementing a feature or bugfix; write tests first. Read `.cursor/skills/superpowers/test-driven-development/SKILL.md`.
+- **using-git-worktrees** — Isolated feature work or running implementation plans in a separate worktree. Read `.cursor/skills/superpowers/using-git-worktrees/SKILL.md`.
+- **using-superpowers** — Starting a conversation; how to find and use skills. Read `.cursor/skills/superpowers/using-superpowers/SKILL.md`.
+- **verification-before-completion** — Before claiming work complete; run checks and confirm output. Read `.cursor/skills/superpowers/verification-before-completion/SKILL.md`.
+- **writing-plans** — You have a spec or requirements; create a plan before coding. Read `.cursor/skills/superpowers/writing-plans/SKILL.md`.
+- **writing-skills** — Creating, editing, or verifying skills. Read `.cursor/skills/superpowers/writing-skills/SKILL.md`.
+
+Invoke the Skill tool (or Read the SKILL.md) when a situation matches. You can also use `/brainstorm`, `/write-plan`, `/execute-plan`, or the code-reviewer subagent when the plugin is enabled.
